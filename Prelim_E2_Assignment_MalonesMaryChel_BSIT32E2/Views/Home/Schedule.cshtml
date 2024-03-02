@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #edb895;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #e2a074;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .schedule-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: ##e2a074;
+        }
+
+            .schedule-table th, .schedule-table td {
+                border: 1px solid #f4bf9c;
+                padding: 10px;
+                text-align: center;
+            }
+
+            .schedule-table th {
+                background-color: #f4bf9c;
+            }
+
+            .schedule-table td {
+                background-color: #f4bf9c;
+            }
+
+        .time-col {
+            width: 100px;
+            font-weight: bold;
+        }
+
+        .day-col {
+            width: 100px;
+            font-weight: bold;
+        }
+
+        .subject {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>IT Elective 3 Schedule</h2>
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="time-col">10:00am - 1:00pm</td>
+                    <td class="subject">None</td>
+                    <td class="subject">None</td>
+                    <td class="subject">None</td>
+                    <td class="subject">None</td>
+                    <td class="subject">None</td>
+                    <td class="subject">Face to Face</td>
+                </tr>
+                <tr>
+                    <td class="time-col">03:00pm - 05:00pm</td>
+                    <td class="subject">None</td>
+                    <td class="subject">None</td>
+                    <td class="subject">None</td>
+                    <td class="subject">Asynchronous</td>
+                    <td class="subject">None</td>
+                    <td class="subject">None</td>
+                </tr>
+                <!-- Add more rows for each time slot -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
